@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container_base">
+        <div class="nav_bar">
+          <div class="logo">
+            <img src="svg/result.svg" alt="" />
+            <h1>MovieBox</h1>
+          </div>
+          <div class="search">
+            <input
+              type="text"
+              class="search_input"
+              id="input-box"
+              placeholder="Search Movie or TV Series"
+              autocomplete="off"
+            />
+            <div class="result-box">
+              <ul class="film-list none"></ul>
+            </div>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="menu">
+            <img src="svg/menu_icon.svg" alt="" />
+          </div>
+        </div>
+        <div class="description_box">
+          <h1>John Wick 3:Parabellum</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
+            labore vitae iusto voluptate sunt architecto deserunt laboriosam
+            fugiat dolores repellat.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="featured_movie">
+      <div class="container_base">
+        <div class="title">
+          <h1>Featured Movie</h1>
+          <a href="#">See More ></a>
+        </div>
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="movie_list">
+                <div class="movie_card"></div>
+                <div class="movie_card"></div>
+                <div class="movie_card"></div>
+                <div class="movie_card"></div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="movie_list">
+                <div class="movie_card"></div>
+                <div class="movie_card"></div>
+                <div class="movie_card"></div>
+                <div class="movie_card"></div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="movie_list">
+                <div class="movie_card"></div>
+                <div class="movie_card"></div>
+                <div class="movie_card"></div>
+                <div class="movie_card"></div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="newarrival_movie">
+      <div class="container_base">
+        <div class="title">
+          <h1>New Arrival</h1>
+          <a href="#">See More ></a>
+        </div>
+        <div id="carouselExample2" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="movie_list">
+                <div class="new_movie_card"></div>
+                <div class="new_movie_card"></div>
+                <div class="new_movie_card"></div>
+                <div class="new_movie_card"></div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="movie_list">
+                <div class="new_movie_card"></div>
+                <div class="new_movie_card"></div>
+                <div class="new_movie_card"></div>
+                <div class="new_movie_card"></div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="movie_list">
+                <div class="new_movie_card"></div>
+                <div class="new_movie_card"></div>
+                <div class="new_movie_card"></div>
+                <div class="new_movie_card"></div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample2"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample2"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="exclusive_videos">
+      <div class="container_base">
+        <div class="title">
+          <h1>Exclusive Videos</h1>
+          <a href="#">See More ></a>
+        </div>
+        <div id="carouselExample3" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="video_list">
+                <div class="video_card"></div>
+                <div class="video_card"></div>
+                <div class="video_card"></div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="video_list">
+                <div class="video_card"></div>
+                <div class="video_card"></div>
+                <div class="video_card"></div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="video_list">
+                <div class="video_card"></div>
+                <div class="video_card"></div>
+                <div class="video_card"></div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample3"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample3"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="logos">
+        <i class="fa-brands fa-facebook fa-2xl"></i>
+        <i class="fa-brands fa-instagram fa-2xl"></i>
+        <i class="fa-brands fa-twitter fa-2xl"></i>
+        <i class="fa-brands fa-youtube fa-2xl"></i>
+      </div>
+      <div class="texts">
+        <a href="">Conditions of Use</a>
+        <a href="">Privacy & Policy</a>
+        <a href="">Press Room</a>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="featured_movie.js"></script>
+    <script src="new_arrival.js"></script>
+    <script src="exclusive_videos.js"></script>
+    <script src="autocomplete.js"></script>
+  </body>
+</html>
